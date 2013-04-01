@@ -56,6 +56,8 @@ namespace testproject
         /// UnloadContent will be called once per game and is the place to unload
         /// all content.
         /// </summary>
+        
+        
         protected override void UnloadContent()
         {
             // TODO: Unload any non ContentManager content here
@@ -81,6 +83,8 @@ namespace testproject
         /// This is called when the game should draw itself.
         /// </summary>
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
+        
+        /// derp
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
