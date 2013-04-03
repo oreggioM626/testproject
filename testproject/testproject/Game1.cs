@@ -33,6 +33,9 @@ namespace testproject
         /// related content.  Calling base.Initialize will enumerate through any components
         /// and initialize them as well.
         /// </summary>
+        /// 
+
+        ///this is a comment
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
